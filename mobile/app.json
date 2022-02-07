@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "PetCare",
+    "slug": "petcare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "notification":{
+      "icon":"./assets/notification.png",
+      "color": "#55A5FA"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#55A5FA"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package":"com.sigma.petcare",
+      "permissions": ["ACCESS_BACKGROUND_LOCATION", "ACCESS_FOREGROUND_LOCATION", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    }
+  }
+}

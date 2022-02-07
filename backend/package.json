@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.935.0",
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "expo-server-sdk": "^3.6.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "node-fetch": "^2.6.1",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.3",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "sort-by-distance": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
