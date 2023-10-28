@@ -35,4 +35,3 @@ O projeto PetCare é um trabalho de conclusão de curso (TCC) que visa simplific
 - Perfil de Usuário: Os usuários podem criar perfis, incluindo informações sobre seus animais de estimação, como nome, raça e histórico de saúde.
 - Notificações: O PetCare oferece notificações para lembrar os usuários de consultas agendadas e outras informações importantes.
 - Sistema de Autenticação: O projeto inclui um sistema de autenticação para proteger os dados do usuário.
-``````
